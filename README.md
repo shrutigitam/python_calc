@@ -40,7 +40,3 @@ A sleek, modern calculator app built with Python’s Tkinter library. This calcu
 - **Tkinter** (standard Python GUI library)
 
 **A beautiful calculator—simplifying math on your desktop, one click at a time!**
-
-> Feel free to fork, star, or enhance this project. If you want to contribute new features (history, advanced math, colors), just open an issue or pull request!
-
-If you want a requirements list, usage GIF, or troubleshooting section—just ask!
