@@ -1,42 +1,58 @@
 # 🧮 Python Calculator (Tkinter)
-A sleek, modern calculator app built with Python’s Tkinter library. This calculator features a large, intuitive interface, supports real-time keyboard input, and provides basic arithmetic along with square and square root operations. Great for everyday math and a perfect project for Python GUI practice!
+A powerful, stylish desktop calculator built with Python’s Tkinter library. This project combines a modern user interface, robust arithmetic capabilities, and keyboard interaction for an efficient, user-friendly experience. Designed for everyday use and for anyone looking to explore Python GUI application development.
 
-## 🚀 Features
-- **Modern User Interface:** Clean, responsive GUI with large display for easy readability.
-- **Core Arithmetic:** Addition, subtraction, multiplication, and division.
-- **Extra Functions:** Built-in square (`x²`) and square root (`√x`) operators.
-- **Immediate Feedback:** Results update instantly with each calculation.
-- **Keyboard Shortcuts:** Use keyboard for quick calculations.
-- **Error Handling:** Gracefully manages invalid operations and displays error messages.
-- **Resizable Window:** Compact but non-resizable for optimal app feel.
+## 📖 Overview
+This calculator application demonstrates how to create a rich desktop GUI tool using Python’s Tkinter library. More than a simple number cruncher, the app enables real-time keyboard input, visually appealing layouts, and support for both basic and advanced math operations including squaring and square roots.
+Whether you’re a beginner seeking to learn about GUI programming, or looking for a practical, customizable desktop tool, this calculator provides a solid foundation.
+
+## 🚩 Features
+- **Modern User Interface**: Clean, large display labels, organized buttons, and responsive layout.
+- **Full Arithmetic Support**: Add, subtract, multiply (`×`), and divide (`÷`), plus decimal point and parentheses.
+- **Advanced Math**: Instantly compute square (`x²`) and square root (`√x`) with dedicated buttons.
+- **Immediate Calculation**: Results are displayed instantly after pressing the equals button or Enter.
+- **Keyboard Shortcuts**: Type numbers and operators right from your keyboard for fast data entry.
+- **Clear & Reset**: Easily clear your current or entire expression with a single click or keypress.
+- **Error Handling**: Invalid input or division by zero are handled gracefully with clear error messages.
+- **Non-Resizable Window**: Professional, fixed layout ensures that the interface always looks perfect, with no distortions.
 
 ## 🗂 Project Structure
 ├── calculator.py      
 ├── README.md
+└── (optionally: requirements.txt, screenshots, or additional modules)
 
-## ⚡ Getting Started
-1. **Clone this repository**
+## ⚙️ System Architecture
+The calculator application is structured as follows:
+- **User Interface Layer**: Created with Tkinter widgets (`Frame`, `Label`, `Button`). All controls (digit, operator, special function buttons) reside in an organized grid, while display labels show the current and total expressions.
+- **Event Handling**: Button clicks and keyboard inputs are mapped to handler methods. Users can interact purely with mouse, keyboard, or both.
+- **Computation Engine**: All expressions are processed using Python’s built-in `eval()` safely within restricted contexts. Square and square root operations are handled as custom logic.
+- **Error Handling**: Try/except blocks ensure that all invalid operations show user-friendly errors instead of crashing.
+- **Extensible Design**: Modular, class-based structure for easy future enhancements (e.g., advanced scientific functions, memory storage) and code reuse.
+
+## 🚀 Getting Started
+1. **Clone This Repository**
     ```bash
     git clone https://github.com/yourusername/python-calculator-tkinter.git
     cd python-calculator-tkinter
     ```
-2. **Install Python (if needed)**
-    - Python 3.x is required (Tkinter is included by default).
+2. **Ensure Python is Installed**
+    - Requires Python 3.x (Tkinter is included in standard installations)
 
 3. **Run the Calculator**
     ```bash
     python calculator.py
     ```
 
-## 🖥 Usage
-- Click the on-screen buttons or use your keyboard to input numbers and operations.
-- Supported operations: `+`, `-`, `×`, `÷`, square, and square root.
-- Press `=` or `Enter` to evaluate.
-- Press `C` to clear.
-- All input and actions update the display in real-time.
+## 🖥️ Usage Guide
+- **Mouse**: Click buttons on the calculator interface to enter numbers, choose operations, and get results.
+- **Keyboard**: Type digits and operators directly; use Enter for equals, C for clear.
+- **Operators**: Addition (+), subtraction (−), multiplication (×), division (÷), decimal (.), parentheses, square (`x²`), and square root (`√x`).
+- **Clear**: Use the C button or the relevant keyboard key to clear input and start fresh.
+- **Result**: Press "=" or Enter after your calculation to see results appear instantly.
 
 ## 🛠️ Technologies Used
-- **Python 3**
-- **Tkinter** (standard Python GUI library)
+- **Python 3**: Core language and backend expression handling
+- **Tkinter**: GUI application framework—buttons, labels, layout
+- **Standard Libraries Only**: No external dependencies needed
 
-**A beautiful calculator—simplifying math on your desktop, one click at a time!**
+**Elegant. Reliable. Efficient. Try modern math with one click—or one keystroke!**
+
